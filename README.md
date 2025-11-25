@@ -290,3 +290,43 @@ For technical support or questions:
 4. Verify network connectivity
 
 ---
+
+**🎉 Happy Streaming! 🎬**
+
+> *"Building the future of video streaming, one frame at a time."*
+
+
+ 
+
+
+### 🎤 Speaker Notes:
+Assalamu Alaikum. Today I will present my RTSP Video Streaming System built for the Computer Networks course. This system demonstrates real-time streaming using RTSP and RTP.
+
+### 🎤 Speaker Notes:
+This system can stream video in real time, works with multiple video formats, and supports both web and desktop clients.
+
+### 🎤 Speaker Notes:
+The system is low-latency and efficient. It streams video frames using RTP and supports multiple clients at the same time.
+
+### 🎤 Speaker Notes:
+At the center is an RTSP server. It streams video frames to web and desktop clients through RTP packets over UDP.
+
+
+### 🎤 Speaker Notes:
+This project uses several networking protocols such as RTSP for control, RTP for data transfer, and UDP for low latency.
+
+### 🎤 Speaker Notes:
+The server extracts video frames, encodes them, packs them into RTP packets, and sends them to the client over UDP.
+
+### 🎤 Speaker Notes:
+The project is modular. Each file handles a specific part such as streaming, encoding, UI, and RTP packet handling.
+
+### 🎤 Speaker Notes:
+To run the system, install the required Python libraries and start both the RTSP and Web servers.
+
+
+### 🎤 Speaker Notes:
+The system delivers high performance with smooth 30 FPS output and extremely low latency under 100 milliseconds.
+
+### 🎤 Speaker Notes:
+In the future, I plan to add mobile app support, stream recording, adaptive bitrate, and more. Thank you.

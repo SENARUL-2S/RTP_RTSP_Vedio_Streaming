@@ -1,0 +1,28 @@
+# RTSP/RTP Video Streaming Lab - Dependencies
+# Real-Time Streaming Protocol and Real-time Transport Protocol implementation
+
+# Core dependencies for GUI and image processing
+Pillow>=9.0.0              # PIL (Python Imaging Library) for image/video processing
+                          # Required for JPEG frame handling and GUI display
+
+# Video processing dependencies for MP4 support
+opencv-python>=4.5.0       # Computer Vision library for MP4 video processing
+numpy>=1.21.0              # Numerical processing for video frame manipulation
+
+# Development and testing (optional)
+# pytest>=6.0.0          # Testing framework
+# black>=21.0.0           # Code formatting
+
+# Note: This project uses only Python standard library modules plus Pillow
+# Standard modules used:
+# - socket (TCP/UDP networking)
+# - threading (concurrent client handling)  
+# - struct (RTP packet encoding/decoding)
+# - tkinter (GUI interface - included with Python)
+# - time, os, io (system utilities)
+
+# Installation command:
+# pip install -r requirements.txt
+
+# Quick install (minimum required):
+# pip install Pillow
